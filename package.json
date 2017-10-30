@@ -1,0 +1,22 @@
+{
+  "name": "angular-directus",
+  "version": "0.0.1",
+  "description": "Angular wrapper for getdirectus.com Javascript SDK",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "anularjs",
+    "directus",
+    "directussdk"
+  ],
+  "author": "Maurits Meester <maurits@matise.nl>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "^1.6.6",
+    "directus-sdk-javascript": "^2.3.0"
+  }
+}
