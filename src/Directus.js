@@ -1,4 +1,4 @@
-var Directus = require('directus-sdk-javascript');
+var Directus = require('directus-sdk-javascript/remote');
 var ngDirectusModule = require('./module.js');
 
 /**
@@ -12,7 +12,16 @@ function DirectusProvider() {
 	this.directus;
 
 	this.init = function init(url,key,version){
-		this.directus = new Directus(key,url,version);
+		var options = {
+			url: url
+		};
+		if(key){
+			options.key = key;
+		}
+		if(version){
+			options.version = version;
+		}
+		this.directus = new Directus(options);
 	}
 
 	this.$get = function (){
@@ -23,10 +32,9 @@ function DirectusProvider() {
 function DirectusService(directusConfig){
 	var self = this;
 
-	directusConfig.directus.getEntries(table, (err, res) => {
-	  if(err) throw err;
-	  console.log(res);
-	});
+	self.getItems = function(table, options){
+		return directusConfig.directus.getItems(table, options);
+	}
 }
 
 ngDirectusModule
