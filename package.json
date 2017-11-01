@@ -12,6 +12,10 @@
     "directus",
     "directussdk"
   ],
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/MatiseAms/angular-directus"
+  },
   "author": "Maurits Meester <maurits@matise.nl>",
   "license": "MIT",
   "dependencies": {
