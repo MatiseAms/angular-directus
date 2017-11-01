@@ -1,6 +1,8 @@
 # Angular Directus
 Angular wrapper for [Directus Javascript SDK](https://github.com/directus/directus-sdk-javascript)
 
+[![npm version](https://badge.fury.io/js/angular-directus.svg)](https://badge.fury.io/js/angular-directus)
+
 ## Instalation
 Install the package via npm: `npm install angular-directus`
 
