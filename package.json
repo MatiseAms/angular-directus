@@ -1,6 +1,6 @@
 {
   "name": "angular-directus",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Angular wrapper for getdirectus.com Javascript SDK",
   "main": "src/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "directus",
     "directussdk"
   ],
-	"repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/MatiseAms/angular-directus"
   },
