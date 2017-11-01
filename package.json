@@ -1,6 +1,6 @@
 {
   "name": "angular-directus",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Angular wrapper for getdirectus.com Javascript SDK",
   "main": "src/index.js",
   "scripts": {
